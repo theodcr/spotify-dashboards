@@ -6,7 +6,7 @@ Notebook 0 is used to fetch data from a Spotify account, build clean datasets, a
 
 Notebook 1 builds an interactive dashboard with [Bokeh](https://bokeh.pydata.org/en/latest/), [Holoviews](http://holoviews.org/) and [Panel](https://panel.pyviz.org/index.html). The interactivity needs a Python backend.
 
-Notebook 2 builds a simpler interactive dashboard with [Altair](https://altair-viz.github.io/). It creates a stand-alone [Vega](https://vega.github.io/vega/) HTML visualization with all interactivity embedded.
+Notebook 2 builds a simpler interactive dashboard with [Altair](https://altair-viz.github.io/). It creates a stand-alone [Vega](https://vega.github.io/vega/) HTML visualization with all interactivity embedded. It can be viewed at https://theodcr.github.io/spotify-dashboards/index.html.
 
 Screenshots:
 
