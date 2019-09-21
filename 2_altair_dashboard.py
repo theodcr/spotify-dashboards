@@ -23,11 +23,6 @@
 # - https://github.com/altair-viz/altair/issues/1552
 # - https://stackoverflow.com/questions/57244390/has-anyone-figured-out-a-workaround-to-add-a-subtitle-to-an-altair-generated-cha
 
-# %load_ext watermark
-# %watermark -v -n -u -p numpy,pandas,altair
-# %reload_ext autoreload
-# %autoreload 1
-
 # +
 from pathlib import Path
 
@@ -51,8 +46,6 @@ albums["release_date"] = pd.to_datetime(albums.release_date)
 albums["year"] = albums.release_date.dt.year
 albums["decade"] = albums.year.astype(str).str[:3] + "0"
 albums["loudness"] = albums.loudness.clip(albums.loudness.quantile(0.05), albums.loudness.quantile(0.95))
-
-artists.columns
 
 # ## Adapt data for simple charts
 #

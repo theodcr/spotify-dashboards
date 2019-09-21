@@ -19,11 +19,6 @@
 # - https://bokeh.pydata.org/en/latest/docs/user_guide/tools.html#custom-tooltip
 # - https://github.com/pyviz-demos/glaciers
 
-# %load_ext watermark
-# %watermark -v -n -u -p numpy,pandas,bokeh,holoviews
-# %reload_ext autoreload
-# %autoreload 1
-
 # +
 from pathlib import Path
 
