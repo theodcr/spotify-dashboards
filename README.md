@@ -7,3 +7,9 @@ Notebook 0 is used to fetch data from a Spotify account, build clean datasets, a
 Notebook 1 builds an interactive dashboard with [Bokeh](https://bokeh.pydata.org/en/latest/), [Holoviews](http://holoviews.org/) and [Panel](https://panel.pyviz.org/index.html).
 
 Notebook 2 builds a simpler interactive dashboard with [Altair](https://altair-viz.github.io/).
+
+Screenshots:
+
+<img src="images/bokeh_dashboard.png" width="700">
+
+<img src="images/altair_dashboard.png" width="700">
