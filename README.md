@@ -10,8 +10,12 @@ Notebook 1 builds an interactive dashboard with [Bokeh](https://bokeh.pydata.org
 
 Notebook 2 builds a simpler interactive dashboard with [Altair](https://altair-viz.github.io/). It creates a stand-alone [Vega](https://vega.github.io/vega/) HTML visualization, with all interactivity embedded, that can be viewed [here](https://theodcr.github.io/spotify-dashboards/index.html).
 
+Script 3 builds an interactive dashboard with [Dash](https://dash.plot.ly/).
+
 Screenshots:
 
 <img src="images/bokeh_dashboard.png" width="700">
 
 <img src="images/altair_dashboard.png" width="700">
+
+<img src="images/dash_dashboard.png" width="700">
