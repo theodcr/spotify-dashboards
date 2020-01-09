@@ -55,9 +55,8 @@ app.layout = html.Div(
         html.H2(children="Spotify user library explorer"),
         html.Div(
             children="""
-        Click on a genre to filter artists,
-        select artists to filter albums,
-        albums view is zoomable
+        Select artists and album release decade to filter albums.
+        Albums view is zoomable, and axes are customizable.
     """
         ),
         dcc.Graph(
